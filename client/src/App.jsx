@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Manga from "./pages/Manga";
+import Pages from "./pages/Pages";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/manga" element={<Manga />} />
+          <Route path="/manga/pages" element={<Pages />} />
         </Routes>
         <Footer />
       </div>
