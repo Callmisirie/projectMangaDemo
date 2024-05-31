@@ -25,7 +25,7 @@ const Home = () => {
           className="relative z-1 max-w-[62rem]
       m-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]"
         >
-          <h1 className="h1 mb-6">Explore a world of art</h1>
+          <h1 className="h1 mb-6">Explore my world</h1>
           <p
             className="body-1 max-w-3xl mx-auto mb-6 
           text-n-2 lg:mb-8"

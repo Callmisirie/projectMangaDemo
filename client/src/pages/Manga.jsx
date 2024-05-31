@@ -1,4 +1,4 @@
-import { superwarCover } from "../assets/superwar";
+import { coverArt } from "../assets/mangaImages";
 import Section from "../components/Section";
 import { RightLine, LeftLine } from "../components/design/Lines";
 import { useNavigate } from "react-router-dom";
@@ -34,7 +34,7 @@ const Manga = () => {
                 Super War
               </h4>
               <div className="overflow-hidden rounded-xl">
-                <img src={superwarCover} width={260} alt="superwar" />
+                <img src={coverArt} width={260} alt="Cover Art" />
               </div>
 
               <div className="h-auto mb-6"></div>
